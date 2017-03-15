@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入账号" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="Sharedpreference write" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="Sharedpreference read" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="insert1" />
+
+                <Button
+                    android:id="@+id/button28"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="insert2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="delete1" />
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="delete2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="update1" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="update2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="select1" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    android:text="select2" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="resolver1查找系统通讯录" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="resolver2查找系统数据库" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="resolver delete3" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="resolver insert" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="resolver update" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="resolver select" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="@dimen/button"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="File" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.day2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <permission
+        android:name="com.example.day2.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required -->
+    <uses-permission android:name="com.example.day2.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!-- Optional. Required for location feature -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="com.example.day2.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.day2.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.day2.MainActivity2"
+            android:label="@string/title_activity_main_activity2"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ComplexwidgetActivity"
+            android:label="@string/title_activity_complexwidget" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ListviewActivity"
+            android:label="@string/title_activity_listview" >
+        </activity>
+        <activity
+            android:name="com.example.day2.GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ListViem2Activity"
+            android:label="@string/title_activity_list_viem2" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ActivityTest1Activity"
+            android:label="@string/title_activity_activity_test1" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ActivityTest2Activity"
+            android:label="@string/title_activity_activity_test2" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ActivityTest3Activity"
+            android:label="@string/title_activity_activity_test3" >
+        </activity>
+        <activity
+            android:name="com.example.day2.Sprinner2Activity"
+            android:label="@string/title_activity_sprinner2" >
+        </activity>
+        <activity
+            android:name="com.example.day2.Sprinner3Activity"
+            android:label="@string/title_activity_sprinner3" >
+        </activity>
+        <activity
+            android:name="com.example.day2.MyAdapter"
+            android:label="@string/title_activity_my_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.info.Person2"
+            android:label="@string/title_activity_person2" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ActivityBActivity"
+            android:label="@string/title_activity_activity_b"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ActivityCActivity"
+            android:label="@string/title_activity_activity_c"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ServiceActivity"
+            android:label="@string/title_activity_service" >
+        </activity>
+
+        <service android:name="com.example.service.ServiceTest1" >
+        </service>
+        <service
+            android:name="com.example.service.ServiceTest2"
+            android:enabled="true" >
+        </service>
+        <service android:name="com.example.service.ServiceTest3" >
+            <intent-filter>
+                <action android:name="com.example.service.ServiceTest3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.day2.ServiceTest4"
+            android:label="@string/title_activity_service_test4" >
+        </activity>
+        <activity
+            android:name="com.example.day2.BroadCastActivity"
+            android:label="@string/title_activity_broad_cast" >
+        </activity>
+
+        <receiver android:name="com.example.receiver.ReceiverTest1" >
+            <intent-filter>
+                <action android:name="test" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.example.receiver.ReceiverTest3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.day2.BroadCast22Activity"
+            android:label="@string/title_activity_broad_cast22" >
+        </activity>
+        <activity
+            android:name="com.example.day2.NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name="com.example.day2.NotificationDemo"
+            android:label="@string/title_activity_notification_demo" >
+        </activity>
+        <activity
+            android:name="com.example.day2.DesActivity"
+            android:label="@string/title_activity_des" >
+        </activity>
+        <activity
+            android:name="com.example.day2.SaveActivity"
+            android:label="@string/title_activity_save" >
+        </activity>
+        <activity
+            android:name="com.example.day2.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+
+        <provider
+            android:name="com.example.provider.MyProvider"
+            android:authorities="com.example.provider.myProvider"
+            android:exported="true" >
+        </provider>
+
+        <activity
+            android:name="com.example.day2.FileActivity"
+            android:label="@string/title_activity_file" >
+        </activity>
+        <activity
+            android:name="com.example.day2.HandlerTestActivity"
+            android:label="@string/title_activity_handler_test" >
+        </activity>
+        <activity
+            android:name="com.example.day2.FristActivity"
+            android:label="@string/title_activity_frist" >
+        </activity>
+        <activity
+            android:name="com.example.day2.FirstActivity"
+            android:label="@string/title_activity_first" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.day2.NewCreateFileActivity"
+            android:label="@string/title_activity_new_create_file"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.day2.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name="com.example.day2.NetActivity"
+            android:label="@string/title_activity_net" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ListMoreActivity"
+            android:label="@string/title_activity_list_more" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ExAdapterActivity"
+            android:label="@string/title_activity_ex_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.day2.ParseActivity"
+            android:label="@string/title_activity_parse" >
+        </activity>
+        <activity
+            android:name="com.example.day2.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="cce100d1d385fbded9ef8e673c74c110" />
+
+        <activity
+            android:name="com.example.day2.JsonActivity"
+            android:label="@string/title_activity_json" >
+        </activity>
+
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.example.day2" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+
+                <category android:name="com.example.day2" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.example.day2" />
+            </intent-filter>
+        </activity>
+        <!-- Required SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+        <!-- User defined. 用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.example.receiver.MyReceiver"
+            android:enabled="true" >
+            <intent-filter>
+
+                <!-- Required 用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <!-- Required 用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required 用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <category android:name="com.example.day2" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <!-- Required. AppKey copied from Portal -->
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="e1f2d1cb2e630f1bcd4a8ab5" />
+    
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/button1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button2" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button9" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button18" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button23" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button24" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button25" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button26" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button27" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button29" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="@dimen/button"
+        android:layout_height="wrap_content"
+        android:text="@string/button30" />
+
+</LinearLayout>

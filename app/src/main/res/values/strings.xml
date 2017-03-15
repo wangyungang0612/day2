@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Day2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">你好老贾！Hello world!</string>
+    <string name="zhanghao">请输入账号</string>
+    <string name="edittexthint">请输入密码</string>
+    <string name="button">登录</string>
+    <string name="pm1">选择A</string>
+    <string name="pm2">选择B</string>
+    <string name="pm3">选择C</string>
+    <string name="pm4">选择D</string>
+    <string name="checkrm">记住密码</string>
+    <string name="checklogin">自动登录</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_complexwidget">ComplexwidgetActivity</string>
+    <string name="button0">获取TimePick时间</string>
+    <string name="button1">简单控件</string>
+    <string name="button2">复杂控件</string>
+    <string name="button3">列表(BaseAdapter)</string>
+    <string name="button5">列表(SimpleAdapter)</string>
+    <string name="button6">对话框</string>
+    <string name="title_activity_listview">ListviewActivity</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="button4">九宫格</string>
+    <string name="title_activity_list_viem2">ListViem2Activity</string>
+    <string name="button8">进度对话框</string>
+    <string name="button00">退出</string>
+    <string name="title_activity_activity_test1">ActivityTest1Activity</string>
+    <string name="button9">Activity研究</string>
+    <string name="button10">Window Activity</string>
+    <string name="title_activity_activity_test2">ActivityTest2Activity</string>
+    <string name="button11">从前向后传值</string>
+    <string name="button12">从后向前传值</string>
+    <string name="button13">back</string>
+    <string name="title_activity_activity_test3">ActivityTest3Activity</string>
+    <string name="button7">sprinner方法2</string>
+    <string name="button18">service研究</string>
+    <string name="button23">Broadcast Receiver</string>
+    <string name="button24">存储研究</string>
+    <string name="button25">线程研究</string>
+    <string name="button26">浏览器研究</string>
+    <string name="button27">网页研究</string>
+    <string name="button28">可拓展列表</string>
+    <string name="button29">解析</string>
+    <string name="button30">地图</string>
+    <string name="jizhumima">记住密码</string>
+    <string name="zidongdenglu">自动登录</string>
+
+    <string-array name="spinnername">
+        <item>北京</item>
+        <item>上海 </item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/satellite</item>
+        <item>@string/night_mode</item>
+    </string-array>
+
+    <string name="night_mode">Night</string>
+    <string name="satellite">Satellite</string>
+    <string name="normal">Normal</string>
+    <string name="traffic">Traffic</string>
+    <string name="title_activity_sprinner2">Sprinner2Activity</string>
+    <string name="title_activity_sprinner3">Sprinner3Activity</string>
+    <string name="sprinnerbutton">sprinner方法3</string>
+    <string name="title_activity_my_adapter">MyAdapter</string>
+    <string name="title_activity_person2">Person2</string>
+    <string name="title_activity_activity_b">ActivityBActivity</string>
+    <string name="title_activity_activity_c">ActivityCActivity</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_service_test4">ServiceTest4</string>
+    <string name="title_activity_broad_cast">BroadCastActivity</string>
+    <string name="title_activity_broad_cast22">BroadCast22Activity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_notification_demo">NotificationDemo</string>
+    <string name="title_activity_des">DesActivity</string>
+    <string name="title_activity_save">SaveActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_file">FileActivity</string>
+    <string name="title_activity_handler_test">HandlerTestActivity</string>
+    <string name="title_activity_frist">FristActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_new_create_file">NewCreateFileActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_net">NetActivity</string>
+    <string name="title_activity_list_more">ListMoreActivity</string>
+    <string name="title_activity_ex_adapter">ExAdapterActivity</string>
+    <string name="title_activity_parse">ParseActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_json">JsonActivity</string>
+
+</resources>
